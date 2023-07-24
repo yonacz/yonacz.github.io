@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Yona"
   avatar           : "/assets/images/hutao.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "WIBU | Player Genshin"
+  bio              : "WIBU, Player Genshin"
   location         : "Semarang"
   email            :
   links:
@@ -290,5 +290,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
+      date_format: "%-d %B, %Y"
 
 github: [metadata]
