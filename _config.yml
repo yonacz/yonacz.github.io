@@ -92,14 +92,14 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
+  links                  : # An array of links to social media profiles
+    - "https://instagram.com/yona_2128"
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : G-L515X3SR70
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
@@ -107,7 +107,7 @@ author:
   name             : "Yona"
   avatar           : "/assets/images/hutao.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "WIBU, Player Genshin"
-  location         : "Semarang"
+  location         : "Semarang, ID"
   email            :
   links:
     - label: "Email"
@@ -115,7 +115,7 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+       url: "https://yona.me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -124,10 +124,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+       url: "https://github.com/yonacz"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+       url: "https://www.instagram.com/yona_2128"
 
 # Site Footer
 footer:
