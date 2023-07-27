@@ -94,6 +94,8 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links                  : # An array of links to social media profiles
     - "https://instagram.com/yona_2128"
+    - "https://yona.me"
+    - "https://github.com/yonacz"
 # Analytics
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
@@ -127,7 +129,7 @@ author:
        url: "https://github.com/yonacz"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/yona_2128"
+       url: "https://instagram.com/yona_2128"
 
 # Site Footer
 footer:
