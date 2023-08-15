@@ -1,0 +1,24 @@
+# /_data/authors.yml
+
+Yona:
+  name             : "Yona"
+  avatar           : "/assets/images/hutao.png"
+  bio              : "WIBU, Player Genshin"
+  location         : "Semarang, ID"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://yona.me"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yonacz"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/yona_2128"
