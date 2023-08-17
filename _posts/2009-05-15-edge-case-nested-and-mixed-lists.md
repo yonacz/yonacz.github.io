@@ -1,13 +1,13 @@
 ---
-title: "Edge Case: Nested and Mixed Lists"
+title: "Apa itu Arduino"
 categories:
-  - Edge Case
+  - Arduino
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - arduino
+  - microcontroller
+  - avr
+
+
 ---
 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
