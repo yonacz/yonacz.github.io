@@ -18,20 +18,21 @@ toc_icon: "heart"
 ## Apa Itu Arduino?
 
 Arduino adalah Microcontroller yang menggunakan chip AVR dari ATMEL, yang sering digunakan adalah keturunan ATMEGA.
-Arduino adalah microcontroller, dan microcontroller secara singkat adalah, “Sebuah sistem komputer yang fungsional dalam sebuah chip,”. Didalamnya sudah ada processor, memory, input output, dan bisa dibilang bahwa microcontroller ini adalah komputer dalam versi mini.
-Karena ukurannya yang kecil, microcontroller sering digunakan untuk mengendalikan rangkaian lampu LED, membuat MP3 Player, DVD, Televisi, AC, dan untuk membuat sebuah projek yang kita butuhkan seperti alarm motor misalkan . Dan tentu saja bisa juga untuk membuat projek robot. Dan dalam robot sendiri kita sudah ketahui bahwa microcontroller, berfungsi sebagai otaknya.
+
+Arduino adalah microcontroller, dan microcontroller secara singkat adalah, “Sebuah sistem komputer yang fungsional dalam sebuah chip”. Didalamnya sudah terdapat processor, memory, input, output, dan bisa dibilang bahwa microcontroller ini adalah komputer dalam versi mini (chip).
+
+Karena ukurannya yang kecil, microcontroller sering digunakan untuk mengendalikan rangkaian lampu LED, membuat MP3 Player, DVD, Televisi, AC, dan untuk membuat sebuah projek yang kita butuhkan seperti alarm motor misalnya. Dan tentu saja bisa juga untuk membuat project robot. Dan dalam robot sendiri kita sudah ketahui bahwa microcontroller, berfungsi sebagai otaknya.
 
 <figure style="width: 300px" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-08-20-arduino-board.png" alt="">
-  <figcaption>Board Arduino Uno.</figcaption>
 </figure> 
 
+Lantas, apa yang membedakan Arduino dengan microcontroller yang lain? Arduino bersifat open source, skemanya boleh di cloning. Terus Arduino memiliki bahasa peograman sendiri. Didalam chipnya sudah ada bootloader, dimana bahasa pemogramannya menggunakan bahasa C, tapi yang sudah disederhanakan. Dan juga sudah tersedia berbagai macam library.
 
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
+Dan yang paling penting yaitu Arduino adalah Microcontroller yang paling populer di Dunia. Dan karena open source, pengembangnya ada dimana-mana, sehingga kita juga tidak akan kesulitan ketika mau mencari referensi.
 
-![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/3953273590_704e3899d5_m.jpg)
-{: .image-right}
 
+Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. 
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
 HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
