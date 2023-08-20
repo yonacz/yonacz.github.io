@@ -14,8 +14,18 @@ toc_label: "Unique Title"
 toc_icon: "heart"
 ---
 
+# Pengenalan Arduino
+## Apa Itu Arduino?
 
-## Body text
+Arduino adalah Microcontroller yang menggunakan chip AVR dari ATMEL, yang sering digunakan adalah keturunan ATMEGA.
+Arduino adalah microcontroller, dan microcontroller secara singkat adalah, “Sebuah sistem komputer yang fungsional dalam sebuah chip,”. Didalamnya sudah ada processor, memory, input output, dan bisa dibilang bahwa microcontroller ini adalah komputer dalam versi mini.
+Karena ukurannya yang kecil, microcontroller sering digunakan untuk mengendalikan rangkaian lampu LED, membuat MP3 Player, DVD, Televisi, AC, dan untuk membuat sebuah projek yang kita butuhkan seperti alarm motor misalkan . Dan tentu saja bisa juga untuk membuat projek robot. Dan dalam robot sendiri kita sudah ketahui bahwa microcontroller, berfungsi sebagai otaknya.
+
+<figure style="width: 300px" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-08-20-arduino-board.png" alt="">
+  <figcaption>Board Arduino Uno.</figcaption>
+</figure> 
+
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
