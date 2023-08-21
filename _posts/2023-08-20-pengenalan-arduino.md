@@ -1,5 +1,10 @@
 ---
 title: "Pengenalan Arduino"
+excerpt: "A post with a sidebar navigation list."
+author_profile: false
+sidebar:
+  title: "Sample Title"
+  nav: sidebar-arduino
 categories:
   - Arduino
 tags:
@@ -8,14 +13,15 @@ tags:
   - microcontroller
   - atmega
 header:
-  image: https://wallpaperaccess.com/full/1154058.jpg
+  image: /assets/images/header-web.png
 toc: true
-toc_label: "Unique Title"
-toc_icon: "heart"
+toc_label: "Pengenalan Arduino"
+toc_icon: "list-alt"
+toc_sticky: true
+
 ---
 
-# Pengenalan Arduino
-## Apa Itu Arduino?
+# Apa Itu Arduino?
 
 Arduino adalah Microcontroller yang menggunakan chip AVR dari ATMEL, yang sering digunakan adalah keturunan ATMEGA.
 
