@@ -21,7 +21,7 @@ toc_sticky: true
 
 ---
 
-# Apa Itu Arduino?
+## Apa Itu Arduino?
 
 Arduino adalah Microcontroller yang menggunakan chip AVR dari ATMEL, yang sering digunakan adalah keturunan ATMEGA.
 
@@ -37,7 +37,7 @@ Lantas, apa yang membedakan Arduino dengan microcontroller yang lain? Arduino be
 
 Dan yang paling penting yaitu Arduino adalah Microcontroller yang paling populer di Dunia. Dan karena open source, pengembangnya ada dimana-mana, sehingga kita juga tidak akan kesulitan ketika mau mencari referensi.
 
-# Sejarah Singkat Lahirnya Arduino
+## Sejarah Singkat Lahirnya Arduino
 
 Arduino berawal dari sebuah tesis yang dibuat oleh Hernando Barragan, di Institute Ivrea, Italia pada tahun 2005, dikembangkan oleh Massimo Banzi dan David Cuartielles dan diberi nama Arduin of Ivrea. Lalu diganti nama menjadi Arduino yang dalam bahasa Italia berarti teman yang berani.
 
@@ -55,37 +55,54 @@ Saat ini tim pengembangnya adalah Massimo Banzi, David Cuartielles, Tom Igoe, Gi
 
 Sifat Arduino yang Open Source, membuat Arduino berkembang sangat cepat. Dan banyak lahir perangkat-perangkat sejenis Arduino, Seperti DFRDuino, SPDUINO atau Freeduino.
 
-Sampai saat ini pihak resmi, sudah membuat berbagai jenis-jenis Arduino… Mulai dari yang paling mudah dicari dan paling banyak digunakan, yaitu Arduino Uno. Hingga Arduino yang sudah menggunakan ARM Cortex, beebentuk Mini PC. Dan Arduino juga sudah banyak dipaka oleh perusahaan besar. Contohnya Google menggunakan Arduino untuk Accessory Development Kit, NASA memakai Arduino untuk prototypin, ada lagi Large Hadron Colider memakai Arduino dalam beberapa hal untuk pengumpulan data.
+Sampai saat ini pihak resmi, sudah membuat berbagai jenis-jenis Arduino… Mulai dari yang paling mudah dicari dan paling banyak digunakan, yaitu Arduino Uno. Hingga Arduino yang sudah menggunakan ARM Cortex, beebentuk Mini PC. Dan Arduino juga sudah banyak dipakai oleh perusahaan besar. Contohnya Google menggunakan Arduino untuk Accessory Development Kit, NASA memakai Arduino untuk prototyping, dan Large Hadron Colider memakai Arduino dalam beberapa hal untuk pengumpulan data.
 
-# Alasan Mengapa Harus Pilih Arduino?
+## Alasan Mengapa Harus Pilih Arduino?
 
 1.  **Karena Arduino Mempunyai Bootloader.** Bootloader semacam sistem tersendiri untuk Arduino, yang membuat Arduino tidak memerlukan lagi tambahan chip programmer. Bootloader ini berfungsi untuk menangani proses memasukan program dari komputer ke Arduino.
-2.  **Karena Arduino Terjangkau.** Coba cek harganya di marketplace ada banyak boards arduino yang harganya murah murah paling sekitar 100 ribuan, malah bisa kurang dari itu dan fungsinya masih sama gak beda jauh.
-3.  **Karena Arduino Mudah Dipelajari.** Bahasa pemograman Arduino adalah bahasa C yang sudah menjadi sederhana. Sehingga memudahkan pemula. Kamu pun yang bukan orang teknik atau berasal dari programmer, pasti bisa menggunakan Arduino.
+2.  **Karena Arduino Terjangkau.** Coba cek harganya di marketplace ada banyak boards arduino yang harganya murah-murah dengan fungsinya yang banyak.
+3.  **Karena Arduino Mudah Dipelajari.** Bahasa pemograman Arduino adalah bahasa C yang sudah disederhanakan. Sehingga memudahkan pemula. Kamu pun yang bukan orang teknik atau berasal dari programmer, pasti bisa menggunakan Arduino.
 4.  **Karena Arduino Menggunakan USB.** Untuk pemograman sudah tidak memerlukan paralel port atau sebagainya, USB memudahkan kamu untuk proses pemograman. Karena USB ada di semua perangkan komputer.
-5.  **Karena Arduino Memiliki Banyak Library Gratis.** Library ini berfungsi untuk menyingkat pemograman, sehingga kamu nggak perlu pusing lagi. Dan tersedia berbagai macam, ada yang untuk LCD, Servo, Sensor, dan sebagainya. 
+5.  **Karena Arduino Memiliki Banyak Library Gratis.** Library ini berfungsi untuk memudahkan penulisan program, sehingga kamu nggak perlu pusing lagi. Dan tersedia berbagai macam, ada yang untuk LCD, Servo, Sensor, dan sebagainya. 
 6.  **Karena Arduino Memiliki Fasilitas Lengkap.** Sudah tersedia memori, pin input output yang lengkap. Ada PWMnya juga, ADC, timer, dan sebagainya.
 7.  **Karena Arduino Open Source.** Tidak hanya secara software saja yang bisa kamu utak-atik, tapi juga secara hardware. Kamu bahkan bisa membuat Arduino buatan kamu sendiri, dan malah pihak Arduino sendiri juga memberikan skemanya (arduino.cc). Dan karena Open Source juga, Arduino menjadi berkembang sangat cepat diseluruh dunia.
 8.  **Karena Komunitas Arduino Banyak.** Komunitas-komunitas ini membuat kamu tidak pusing saat mau bertanya, atau mencari referensi untuk belajar. Di Google dan youtube pun, banyak contoh-contoh projek Arduino yang telah dibuat.
 
-# Jenis-Jenis board Arduino
+## Jenis-Jenis board Arduino
 
-## Arduino Uno
+### Arduino Uno
 
 <figure style="width: 300px" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-08-20-arduino-uno.jpg" alt="arduino uno">
 </figure>
 
-Arduino menganggap Uno sebagai produk entry-level. Namun, pada kenyataannya Uno adalah konfigurasi Arduino yang paling populer di dunia. Sepak terjangnya sangat familier bagi siapa saja yang telah menggunakan Arduino. Selain itu, sebagian besar Arduino shield di desain agar sesuai dengan Arduino Uno.
-Arduino Uno sering digunakan sebagai prototyping board, yang pada akhirnya akan menjadi produk akhir berdasarkan Arduino atau yang lebih kecil, masih di seputaran chip mikrokontroler ATMega328. Chip ini merupakan perangkat yang menjadi dasar Arduino Uno. 
+Arduino menganggap Uno sebagai produk entry-level. Namun, pada kenyataannya Uno adalah konfigurasi Arduino yang paling populer di dunia. Sepak terjangnya sangat familier bagi siapa saja yang telah menggunakan Arduino. Selain itu, sebagian besar Arduino shield di desain agar sesuai dengan Arduino Uno. Arduino Uno sering digunakan sebagai prototyping board, yang pada akhirnya akan menjadi produk akhir berdasarkan Arduino atau yang lebih kecil, masih di seputaran chip mikrokontroler ATMega328. Chip ini merupakan perangkat yang menjadi dasar Arduino Uno. 
 
-Uno memiliki 14 pin I/O digital, 6 di antaranya mampu menghasilkan Pulse Width Modulator (PWM). Selain itu, Uno juga memiliki 6 pin input analog. Arduino Uno board berisi 32 KB memori flash untuk menyimpan program, setengah kilobyte digunakan oleh boot loader dan RAM statis 2 KB di Uno. ATMega328 memiliki clock 16 megahertz, untuk skema lengkap serta tata letak board sirkuit untuk Uno anda dapat melihatnya pada situs resmi Arduino.
+Uno memiliki 14 pin I/O digital, 6 di antaranya pin PWM (*Pulse Width Modulator*). Selain itu, Uno juga memiliki 6 pin input analog. Arduino Uno board berisi 32 KB memori flash untuk menyimpan program, setengah kilobyte digunakan oleh bootloader dan RAM statis 2 KB di Uno. ATMega328 memiliki clock 16 megahertz, untuk skema lengkap serta tata letak board sirkuit untuk Uno kamu dapat melihatnya pada situs resmi Arduino.
 
-Arduino Uno dapat dihidupkan secara langsung melalui port USB yang juga digunakan untuk berkomunikasi dengan komputer. Selain itu, Anda pun dapat menggunakan adaptor 7-12 volt. Sebenarnya, regulator tegangan bawaan Uno mampu menangani tegangan hingga 20 volt, namun pada tegangan yang lebih tinggi akan ada banyak energi panas terhamburkan sehingga ada sedikit energi terbuang. Sedangkan pada pin I/O digital dapat memasok arus hingga 20 miliampere DC.
+Arduino Uno dapat dihidupkan secara langsung melalui port USB yang juga digunakan untuk berkomunikasi dengan komputer. Selain itu, Kamu pun dapat menggunakan adaptor 7-12 volt. Sebenarnya, regulator tegangan bawaan Uno mampu menangani tegangan hingga 20 volt, namun pada tegangan yang lebih tinggi akan ada banyak energi panas terhamburkan sehingga ada sedikit energi terbuang. Sedangkan pada pin I/O digital dapat memasok arus hingga 20 miliampere DC.
 
 Kloningan Uno dan official Uno sendiri tersedia dalam sejumlah konfigurasi berbeda. Pada beberapa perangkat, ATMega328 di simpan di dalam soket yang dapat di lepas, sehingga memungkinkan untuk di gunakan pada perangkat lain. Sedangkan ada juga konfigurasi Uno lain yang memiliki versi fixed, di mana chip ini tersolder langsung kepada board.
 
-Jika Anda ingin mulai mempelajari Arduino, saya rekomendasikan untuk menggunakan Arduino Uno atau kloningannya, ini adalah cara termurah dan bagus untuk memasuki dunia mikrokontroler Arduino yang menyenangkan.
+Jika Kamu ingin mulai mempelajari Arduino, saya rekomendasikan untuk menggunakan Arduino Uno atau kloningannya, ini adalah cara termurah dan bagus untuk memasuki dunia mikrokontroler Arduino yang menyenangkan.
+
+### Arduino Mega
+
+<figure style="width: 300px" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-08-20-arduino-uno.jpg" alt="arduino uno">
+</figure>
+
+Arduino dapat mencakup banyak proyek yang berbeda-beda. Namun, adakalanya Anda membutuhkan lebih banyak pin I/O atau memiliki kemampuan yang lebih banyak untuk komunikasi serial. Maka, disarankan untuk menggunakan Arduino Mega.
+Mega adalah kakak Uno. Jenis Arduino board ini diliputi oleh 54 pin I/O dan 15 pin dapat digunakan untuk output PWM. Selain itu, Mega memiliki 16 pin input analog.
+
+Arduino Mega didasarkan pada Mikrokontroler ATmega2560 dan memiliki 256 kilobyte memori flash untuk mendukung kapasitas penyimpanan program yang jauh lebih besar daripada Uno. Arduino Mega memiliki 8 kilobyte SRAM dan sama seperti Uno yang beroperasi pada 16 megahertz.
+
+Mega adalah perangkat yang lebih besar daripada Uno, akan tetapi pin-out tetap sama, pinout Uno adalah bagian dari pinout Mega. Sehingga memungkinkan untuk menggunakan shield yang sama yang dirancang untuk Uno pada Mega.
+
+Seperti halnya Uno, Mega dapat dinyalakan menggunakan port USB atau melalui adaptor eksternal 7 -12 volt.
+
+Jadi, jika Anda memiliki proyek yang terlalu besar untuk Arduino Uno. Maka, Mega adalah pilihan yang tepat unduk digunakan. Satu hal penting yang patut untuk diketahui, bahwa, perangkat Arduino Mega ini digunakan sebagai jantung dari perangkat printer 3D.
+
 
 
 ### Ordered Lists
