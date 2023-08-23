@@ -1,6 +1,6 @@
 ---
 title: "Pengenalan Arduino"
-excerpt: "Arduino adalah microcontroller, dan microcontroller secara singkat adalah, “Sebuah sistem komputer yang fungsional dalam sebuah chip"
+excerpt: "Arduino adalah microcontroller, dan microcontroller secara singkat adalah, “Sebuah sistem komputer yang fungsional dalam sebuah chip." Didalamnya sudah terdapat processor, memory, input, output, dan bisa dibilang bahwa microcontroller ini adalah komputer dalam versi mini (chip)."
 author_profile: false
 sidebar:
   title: "Belajar Arduino"
@@ -25,7 +25,7 @@ toc_sticky: true
 
 Arduino adalah Microcontroller yang menggunakan chip AVR dari ATMEL, yang sering digunakan adalah keturunan ATMEGA.
 
-Arduino adalah microcontroller, dan microcontroller secara singkat adalah, “Sebuah sistem komputer yang fungsional dalam sebuah chip”. Didalamnya sudah terdapat processor, memory, input, output, dan bisa dibilang bahwa microcontroller ini adalah komputer dalam versi mini (chip).
+Arduino adalah microcontroller, dan microcontroller secara singkat adalah, “Sebuah sistem komputer yang fungsional dalam sebuah chip.” Didalamnya sudah terdapat processor, memory, input, output, dan bisa dibilang bahwa microcontroller ini adalah komputer dalam versi mini (chip).
 
 Karena ukurannya yang kecil, microcontroller sering digunakan untuk mengendalikan rangkaian lampu LED, membuat MP3 Player, DVD, dan untuk membuat sebuah projek yang kita butuhkan seperti alarm motor misalnya. Dan tentu saja bisa juga untuk membuat project robot. Dan dalam robot sendiri kita sudah ketahui bahwa microcontroller, berfungsi sebagai otaknya.
 
