@@ -1,5 +1,5 @@
 ---
-title: "Pengenalan Arduino"
+title: "Pengenalan Arduin"
 excerpt: "Arduino adalah microcontroller, dan microcontroller secara singkat adalah, “Sebuah sistem komputer yang fungsional dalam sebuah chip." Didalamnya sudah terdapat processor, memory, input, output, dan bisa dibilang bahwa microcontroller ini adalah komputer dalam versi mini (chip)."
 author_profile: false
 sidebar:
